@@ -49,20 +49,43 @@ public class ObjectCopyService
         var autoMapperPerson = objectCopyService.AutoMapper_ObjectCopy();
         var mapsterPerson = objectCopyService.Mapster_ObjectCopy();
 
-        var reflectAutoRef = object.ReferenceEquals(reflectPerson.Addresses, autoMapperPerson.Addresses);
-        var addressReflectAutoRef = object.ReferenceEquals(reflectPerson.Addresses[arrayIndex], autoMapperPerson.Addresses[arrayIndex]);
+        // Reflection
+        if (object.ReferenceEquals(ObjectCopyService.PersonToCopy.Addresses, reflectPerson.Addresses))
+        {
+            Console.WriteLine("Same reference on heap");
+        }
 
-        var reflectMapsterREf = object.ReferenceEquals(reflectPerson.Addresses, mapsterPerson.Addresses);
-        var addressreflectMapsterREf = object.ReferenceEquals(reflectPerson.Addresses[arrayIndex], mapsterPerson.Addresses[arrayIndex]);
+        if (object.ReferenceEquals(ObjectCopyService.PersonToCopy.Addresses[arrayIndex], reflectPerson.Addresses[arrayIndex]))
+        {
+            Console.WriteLine("Same reference on heap");
+        }
 
-        reflectPerson.Addresses[arrayIndex].Line1 = "11";
+        // AutoMapper
+        if (object.ReferenceEquals(ObjectCopyService.PersonToCopy.Addresses, autoMapperPerson.Addresses))
+        {
+            Console.WriteLine("Same reference on heap");
+        }
 
-        Debug.Assert(reflectPerson.Addresses[arrayIndex].Line1 == autoMapperPerson.Addresses[arrayIndex].Line1);
+        if (object.ReferenceEquals(ObjectCopyService.PersonToCopy.Addresses[arrayIndex], autoMapperPerson.Addresses[arrayIndex]))
+        {
+            Console.WriteLine("Same reference on heap");
+        }
 
-        Console.WriteLine(autoMapperPerson.Addresses[arrayIndex].Line1);
+        // Mapper
+        if (object.ReferenceEquals(ObjectCopyService.PersonToCopy.Addresses, mapsterPerson.Addresses))
+        {
+            Console.WriteLine("Same reference on heap");
+        }
 
-        Debug.Assert(reflectPerson.Addresses[arrayIndex].Line1 == mapsterPerson.Addresses[arrayIndex].Line1);
+        if (object.ReferenceEquals(ObjectCopyService.PersonToCopy.Addresses[arrayIndex], mapsterPerson.Addresses[arrayIndex]))
+        {
+            Console.WriteLine("Same reference on heap");
+        }
 
-        Console.WriteLine(mapsterPerson.Addresses[arrayIndex].Line1);
+        ObjectCopyService.PersonToCopy.Addresses[arrayIndex].Line1 = "11";
+
+        Console.WriteLine(reflectPerson.Addresses[arrayIndex].Line1); // affected
+        Console.WriteLine(autoMapperPerson.Addresses[arrayIndex].Line1); // not affected
+        Console.WriteLine(mapsterPerson.Addresses[arrayIndex].Line1); // not affected
     }
 }
