@@ -71,7 +71,7 @@ public class ObjectCopyService
             Console.WriteLine("Same reference on heap");
         }
 
-        // Mapper
+        // Mapster
         if (object.ReferenceEquals(ObjectCopyService.PersonToCopy.Addresses, mapsterPerson.Addresses))
         {
             Console.WriteLine("Same reference on heap");
