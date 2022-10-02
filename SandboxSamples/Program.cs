@@ -7,7 +7,7 @@ using System.Globalization;
 
 //BenchmarkRunner.Run<ObjectCopyService>();
 
-
-CompareObjectCopyMethods();
+//debug & compare object copy methods
+new ObjectCopyService().CompareObjectCopyMethods();
 
 
