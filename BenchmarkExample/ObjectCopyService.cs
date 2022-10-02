@@ -84,8 +84,8 @@ public class ObjectCopyService
 
         ObjectCopyService.PersonToCopy.Addresses[arrayIndex].Line1 = "11";
 
-        Console.WriteLine(reflectPerson.Addresses[arrayIndex].Line1); // affected
-        Console.WriteLine(autoMapperPerson.Addresses[arrayIndex].Line1); // not affected
+        Console.WriteLine(reflectPerson.Addresses[arrayIndex].Line1); // affected!!
+        Console.WriteLine(autoMapperPerson.Addresses[arrayIndex].Line1); // affected!!
         Console.WriteLine(mapsterPerson.Addresses[arrayIndex].Line1); // not affected
     }
 }
