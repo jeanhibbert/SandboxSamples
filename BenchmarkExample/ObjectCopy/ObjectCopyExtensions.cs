@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace BenchmarkExample.ObjectCopy;
+namespace ObjectCopyExample.ObjectCopy;
 
 public static class ObjectCopyExtensions
 {

@@ -1,7 +1,7 @@
 ﻿using AutoFixture;
 using BenchmarkDotNet.Running;
-using BenchmarkExample;
-using BenchmarkExample.Model;
+using ObjectCopyExample;
+using ObjectCopyExample.Model;
 using System.Diagnostics;
 using System.Globalization;
 

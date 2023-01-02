@@ -3,16 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxSamples", "SandboxSamples\SandboxSamples.csproj", "{456E5305-0AC5-407B-A831-96C70709C50D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxSamples", "SandboxSamples\SandboxSamples.csproj", "{456E5305-0AC5-407B-A831-96C70709C50D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkExample", "BenchmarkExample\BenchmarkExample.csproj", "{2E248AB2-FFAD-459F-9BBA-5334EB699E65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectCopyExample", "BenchmarkExample\ObjectCopyExample.csproj", "{2E248AB2-FFAD-459F-9BBA-5334EB699E65}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BAEBD182-23E3-4334-8CF8-A603FBB06252}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxSamples.Common", "SandboxSamples.Common\SandboxSamples.Common.csproj", "{58750BB0-E512-4A95-A91B-09142CCFCFCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxSamples.Common", "SandboxSamples.Common\SandboxSamples.Common.csproj", "{58750BB0-E512-4A95-A91B-09142CCFCFCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

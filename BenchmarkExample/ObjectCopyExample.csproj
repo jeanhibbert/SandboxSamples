@@ -15,4 +15,10 @@
     <ProjectReference Include="..\SandboxSamples.Common\SandboxSamples.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="docs\images\ObjectCopy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace BenchmarkExample.Model;
+﻿namespace ObjectCopyExample.Model;
 
 public class Address
 {
