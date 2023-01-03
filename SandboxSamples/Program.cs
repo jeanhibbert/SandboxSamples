@@ -5,9 +5,9 @@ using ObjectCopyExample.Model;
 using System.Diagnostics;
 using System.Globalization;
 
-//BenchmarkRunner.Run<ObjectCopyService>();
+BenchmarkRunner.Run<ObjectCopyService>();
 
 //debug & compare object copy methods
-new ObjectCopyService().CompareObjectCopyMethods();
+//new ObjectCopyService().CompareObjectCopyMethods();
 
 
