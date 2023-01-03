@@ -19,4 +19,4 @@ Simple object copy Service that evaluates the performance of the following frame
 
 Additiional work was done to evaluate if the child reference properties were copied by reference or by value.
 
-![Object graph](docs/images/docker-services-config.png)
+![Object graph](BenchmarkExample\docs\images\ObjectCopy.png)
