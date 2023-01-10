@@ -20,8 +20,7 @@ public static class ObjectCopyExtensions
                 var targetField = targetFields.SingleOrDefault(fi => fi.Name.Equals(sourceInfo.Name) &&
                     fi.FieldType == sourceInfo.PropertyType);
 
-                if (targetField != null)
-                    targetField.SetValue(target, sourceInfo.GetValue(source));
+                targetField?.SetValue(target, sourceInfo.GetValue(source));
             }
             else
                 targetInfo.SetValue(target, sourceInfo.GetValue(source));

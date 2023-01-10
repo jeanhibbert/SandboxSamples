@@ -1,13 +1,9 @@
-﻿using AutoFixture;
-using BenchmarkDotNet.Running;
-using ObjectCopyExample;
-using ObjectCopyExample.Model;
-using System.Diagnostics;
-using System.Globalization;
+﻿using ObjectCopyExample;
 
-BenchmarkRunner.Run<ObjectCopyService>();
+// Uncomment if you would like to benchmark the mapping strategies
+//BenchmarkRunner.Run<ObjectCopyService>();
 
 //debug & compare object copy methods
-//new ObjectCopyService().CompareObjectCopyMethods();
+ObjectCopyService.CompareObjectCopyMethods();
 
 
