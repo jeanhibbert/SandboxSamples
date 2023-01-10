@@ -19,4 +19,4 @@ Simple object copy Service that evaluates the performance of the following frame
 
 Additiional work was done to evaluate if the child reference properties were copied by reference or by value.
 
-![Object graph](BenchmarkExample\docs\images\ObjectCopy.png)
+![ObjectCopy](https://user-images.githubusercontent.com/230106/210452703-0d142822-b6dd-4177-8d87-4872cb63ef3a.png)
