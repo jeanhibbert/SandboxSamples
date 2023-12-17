@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxSamples.Common", "SandboxSamples.Common\SandboxSamples.Common.csproj", "{58750BB0-E512-4A95-A91B-09142CCFCFCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxSamples.TimeSeriesCorrelation", "SandboxSamples.TimeSeriesCorrelation\SandboxSamples.TimeSeriesCorrelation.csproj", "{DA06B5E6-0732-48AE-88EE-1F5FBA578383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxSamples.TimeSeriesCorrelation", "SandboxSamples.TimeSeriesCorrelation\SandboxSamples.TimeSeriesCorrelation.csproj", "{DA06B5E6-0732-48AE-88EE-1F5FBA578383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanboxSamples.Optimisation", "SanboxSamples.Optimisation\SanboxSamples.Optimisation.csproj", "{C9058B7C-B536-4293-9BD6-7B655972B459}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DA06B5E6-0732-48AE-88EE-1F5FBA578383}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA06B5E6-0732-48AE-88EE-1F5FBA578383}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA06B5E6-0732-48AE-88EE-1F5FBA578383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9058B7C-B536-4293-9BD6-7B655972B459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9058B7C-B536-4293-9BD6-7B655972B459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9058B7C-B536-4293-9BD6-7B655972B459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9058B7C-B536-4293-9BD6-7B655972B459}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
