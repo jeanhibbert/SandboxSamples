@@ -4,18 +4,20 @@
  * which fills a two-dimensional dp array with the minimum cumulative cost of transforming one time series into another. 
  * The final result is stored in dp[m, n], where m and n are the lengths of the two time series. */
 
-internal class DynamicTimeWarping
+public static class DynamicTimeWarping
 {
-    public static void Start()
+    public static double Start()
     {
-        double[] series1 = new double[] { 1, 2, 3, 4, 5 };
-        double[] series2 = new double[] { 5, 4, 3, 2, 1 };
+        double[] series1 = { 1, 2, 3, 4, 5 };
+        double[] series2 = { 5, 4, 3, 2, 1 };
 
         // Calculate DTW distance
         double dtwDistance = DTW(series1, series2);
 
         // Print result
         Console.WriteLine("DTW distance between two time series: " + dtwDistance);
+
+        return dtwDistance;
     }
 
     static double DTW(double[] series1, double[] series2)

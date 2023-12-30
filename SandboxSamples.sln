@@ -17,7 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxSamples.Common", "Sa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxSamples.TimeSeriesCorrelation", "SandboxSamples.TimeSeriesCorrelation\SandboxSamples.TimeSeriesCorrelation.csproj", "{DA06B5E6-0732-48AE-88EE-1F5FBA578383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanboxSamples.Optimisation", "SanboxSamples.Optimisation\SanboxSamples.Optimisation.csproj", "{C9058B7C-B536-4293-9BD6-7B655972B459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SanboxSamples.Optimisation", "SanboxSamples.Optimisation\SanboxSamples.Optimisation.csproj", "{C9058B7C-B536-4293-9BD6-7B655972B459}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxSamples.Extraction", "SandboxSamples.Extraction\SandboxSamples.Extraction.csproj", "{328DF359-B4AF-4A0F-B326-6B96AEB4A4B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxSamples.Extraction.IntegrationTests", "SandboxSamples.Extraction.IntegrationTests\SandboxSamples.Extraction.IntegrationTests.csproj", "{1633607C-8064-4121-B2F2-7439445B2E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxSamples.TimeSeriesCorrelation.UnitTests", "SandboxSamples.TimeSeriesCorrelation.UnitTests\SandboxSamples.TimeSeriesCorrelation.UnitTests.csproj", "{402DEFD3-44C0-4433-B9F3-01ABF3DA463C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{C9058B7C-B536-4293-9BD6-7B655972B459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9058B7C-B536-4293-9BD6-7B655972B459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9058B7C-B536-4293-9BD6-7B655972B459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328DF359-B4AF-4A0F-B326-6B96AEB4A4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328DF359-B4AF-4A0F-B326-6B96AEB4A4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328DF359-B4AF-4A0F-B326-6B96AEB4A4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328DF359-B4AF-4A0F-B326-6B96AEB4A4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1633607C-8064-4121-B2F2-7439445B2E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1633607C-8064-4121-B2F2-7439445B2E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1633607C-8064-4121-B2F2-7439445B2E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1633607C-8064-4121-B2F2-7439445B2E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{402DEFD3-44C0-4433-B9F3-01ABF3DA463C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402DEFD3-44C0-4433-B9F3-01ABF3DA463C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402DEFD3-44C0-4433-B9F3-01ABF3DA463C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402DEFD3-44C0-4433-B9F3-01ABF3DA463C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
