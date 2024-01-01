@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BenchmarkExample\ObjectCopyExample.csproj" />
     <ProjectReference Include="..\SanboxSamples.Optimisation\SanboxSamples.Optimisation.csproj" />
+    <ProjectReference Include="..\SandboxSamples.WordManipulation\SandboxSamples.WordManipulation.csproj" />
   </ItemGroup>
 
 </Project>
