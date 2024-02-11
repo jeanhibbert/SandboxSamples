@@ -8,10 +8,7 @@ public class PdfService
     {
         using (PDFDoc pdfDoc = new PDFDoc())
         {
-            // Convert DOCX to PDF using PDFTron Convert utility
             pdftron.PDF.Convert.OfficeToPDF(pdfDoc, inputDocxPath, new ConversionOptions ());
-
-            // Save the PDF to the specified output path
             pdfDoc.Save(outputPdfPath, SDFDoc.SaveOptions.e_remove_unused);
         }
     }
