@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GrpcRxConsole": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

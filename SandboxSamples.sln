@@ -25,7 +25,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxSamples.Extraction.I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxSamples.TimeSeriesCorrelation.UnitTests", "SandboxSamples.TimeSeriesCorrelation.UnitTests\SandboxSamples.TimeSeriesCorrelation.UnitTests.csproj", "{402DEFD3-44C0-4433-B9F3-01ABF3DA463C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxSamples.WordManipulation", "SandboxSamples.WordManipulation\SandboxSamples.WordManipulation.csproj", "{0B7F67F8-2B98-4737-A89D-CC130D8C9D86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxSamples.WordManipulation", "SandboxSamples.WordManipulation\SandboxSamples.WordManipulation.csproj", "{0B7F67F8-2B98-4737-A89D-CC130D8C9D86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxSamples.Observables", "SandboxSamples.Observables\SandboxSamples.Observables.csproj", "{783A743E-8DEA-4E27-8EDD-5731BF4B0591}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxSamples.Observables.Tests", "SandboxSamples.Observables.Tests\SandboxSamples.Observables.Tests.csproj", "{1CAC7D4F-F5E0-41AA-A07C-79E09A7FA5FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcRxService", "GrpcRxService\GrpcRxService.csproj", "{48AA9852-A4B8-4348-BB12-88337626D35F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcRxConsole", "GrpcRxConsole\GrpcRxConsole.csproj", "{0A77535C-D6A7-4C7A-8355-DE9D065E6007}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +77,22 @@ Global
 		{0B7F67F8-2B98-4737-A89D-CC130D8C9D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B7F67F8-2B98-4737-A89D-CC130D8C9D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B7F67F8-2B98-4737-A89D-CC130D8C9D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783A743E-8DEA-4E27-8EDD-5731BF4B0591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783A743E-8DEA-4E27-8EDD-5731BF4B0591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783A743E-8DEA-4E27-8EDD-5731BF4B0591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783A743E-8DEA-4E27-8EDD-5731BF4B0591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAC7D4F-F5E0-41AA-A07C-79E09A7FA5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAC7D4F-F5E0-41AA-A07C-79E09A7FA5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAC7D4F-F5E0-41AA-A07C-79E09A7FA5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAC7D4F-F5E0-41AA-A07C-79E09A7FA5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48AA9852-A4B8-4348-BB12-88337626D35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48AA9852-A4B8-4348-BB12-88337626D35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48AA9852-A4B8-4348-BB12-88337626D35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48AA9852-A4B8-4348-BB12-88337626D35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A77535C-D6A7-4C7A-8355-DE9D065E6007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A77535C-D6A7-4C7A-8355-DE9D065E6007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A77535C-D6A7-4C7A-8355-DE9D065E6007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A77535C-D6A7-4C7A-8355-DE9D065E6007}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
